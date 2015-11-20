@@ -1847,7 +1847,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 413548, guid: fd8a3512ee2fe514186003e80fa4707f, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 413548, guid: fd8a3512ee2fe514186003e80fa4707f, type: 2}
       propertyPath: m_LocalRotation.z
@@ -1855,7 +1855,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 413548, guid: fd8a3512ee2fe514186003e80fa4707f, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -1.62920685e-07
       objectReference: {fileID: 0}
     - target: {fileID: 413548, guid: fd8a3512ee2fe514186003e80fa4707f, type: 2}
       propertyPath: m_RootOrder
@@ -37404,7 +37404,6 @@ GameObject:
   - 20: {fileID: 2021893741}
   - 92: {fileID: 2021893740}
   - 124: {fileID: 2021893739}
-  - 81: {fileID: 2021893738}
   - 114: {fileID: 2021893743}
   m_Layer: 0
   m_Name: Main Camera
@@ -37413,13 +37412,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2021893738
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2021893737}
-  m_Enabled: 1
 --- !u!124 &2021893739
 Behaviour:
   m_ObjectHideFlags: 0
@@ -37474,8 +37466,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2021893737}
-  m_LocalRotation: {x: .0871557519, y: 0, z: 0, w: .99619472}
-  m_LocalPosition: {x: 1900, y: 10, z: 740}
+  m_LocalRotation: {x: .129660949, y: 0, z: 0, w: .991558373}
+  m_LocalPosition: {x: 1900, y: 15.1000004, z: 738.780029}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
